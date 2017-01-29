@@ -14,7 +14,7 @@ javac -cp babbler-0.7.2.jar:./ RosterMigratorCLI.java
 ## Run
 
 ```
-java -cp babbler-0.7.2.jar:./ Client <src_jid> <src_pw> <dest_jid> <dest_pw> <subscription_status_text>
+java -cp babbler-0.7.2.jar:./ RosterMigratorCLI <src_jid> <src_pw> <dest_jid> <dest_pw> <subscription_status_text>
 
 Usage:
   src_jid    The Jabber ID at the source server (host name will be derived from domain-part of jid).
